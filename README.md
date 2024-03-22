@@ -1,5 +1,6 @@
 # Pipelined_32bit-multiplier
 EE23E009 - Aneesh S 
+
 The Bluespec Verilog code implements a pipelined 32-bit integer multiplier.
 
 The code uses Wallace tree concept for multiplication of two numbers. It consists of three stages:
@@ -38,3 +39,8 @@ yosys> synth_ecp5 -top mk_Multiply
 
 yosys> write_verilog synthesis_result.v
 
+-------------------------------
+
+References:
+.>. Fast Multiplers Lectures: "Computer Organization and Architecture", NPTEL
+.> Computer Organization and Design RISC-V, Textbook
