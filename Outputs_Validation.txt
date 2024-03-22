@@ -5,48 +5,47 @@ Input: Two  32 bit numbers, Output: 64 bit number
  
  Result of the multiplication : 0000000000000000000000000000000000000000000000000000000000000000
 
- Decimal Equivalent:                    0
+
 
 2.) Multiplicand: 0, Multiplier: 2
 
 Result of the multiplication : 0000000000000000000000000000000000000000000000000000000000000000
 
- Decimal Equivalent:                    0
+
 
 3.) Multiplicand: 2, Multiplier: 0
 
 Result of the multiplication : 0000000000000000000000000000000000000000000000000000000000000000
 
- Decimal Equivalent:                    0
 
 4.) Multiplicand: 2, Multiplier: 7
  
 Result of the multiplication : 0000000000000000000000000000000000000000000000000000000000001110
 
- Decimal Equivalent:                   14
+ 
  
 5.) Multiplicand: 7, Multiplier: 2
 
 Result of the multiplication : 0000000000000000000000000000000000000000000000000000011100100011
 
- Decimal Equivalent:                 1827
+
 
 6.) Multiplicand: 2147483647, Multiplier: 1
  
  Result of the multiplication : 0000000000000000000000000000000001111111111111111111111111111111
 
- Decimal Equivalent:           2147483647
+
 
 7.) Multiplicand: 1, Multiplier: 2147483647
  Result of the multiplication : 0000000000000000000000000000000001111111111111111111111111111111
 
- Decimal Equivalent:           2147483647
+ 
  
  8.) Multiplicand: 2147483647, Multiplier: 2147483647
 
 Result of the multiplication : 0011111111111111111111111111111100000000000000000000000000000001
 
- Decimal Equivalent:  4611686014132420609
+ 
  
 9.) Overflow Condition:
 Multiplicand: 12147483647, Multiplier: 214
