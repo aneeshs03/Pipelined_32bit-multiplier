@@ -43,4 +43,5 @@ yosys> write_verilog synthesis_result.v
 
 References:
 .>. Fast Multiplers Lectures: "Computer Organization and Architecture", NPTEL
+
 .> Computer Organization and Design RISC-V, Textbook
