@@ -1,0 +1,19 @@
+2.47. Printing statistics.
+
+=== mk_Multiply ===
+
+   Number of wires:               2649
+   Number of wire bits:           9711
+   Number of public wires:        2649
+   Number of public wire bits:    9711
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4951
+     CCU2C                         470
+     L6MUX21                       188
+     LUT4                         2973
+     PFUMX                         750
+     TRELLIS_FF                    570
+
+
