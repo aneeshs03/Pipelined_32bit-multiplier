@@ -39,6 +39,22 @@ yosys> synth_ecp5 -top mk_Multiply
 
 yosys> write_verilog synthesis_result.v
 
+The area report is generated using the commands:
+
+dfflibmap -liberty examples/cmos/cmos_cells.lib 
+
+abc -liberty examples/cmos/cmos_cells.lib 
+
+show
+
+write_verilog synth1.v
+
+write_verilog -noattr netlist1.v
+
+stat -liberty examples/cmos/cmos_cells.lib
+
+tee -o chip_area1.txt stat -liberty examples/cmos/cmos_cells.lib
+
 -------------------------------
 
 References:
