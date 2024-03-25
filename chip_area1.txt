@@ -1,0 +1,19 @@
+20. Printing statistics.
+
+=== mk_multiply ===
+
+   Number of wires:              21858
+   Number of wire bits:          30680
+   Number of public wires:         133
+   Number of public wire bits:    4532
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16982
+     DFF                           522
+     NAND                         7803
+     NOR                          5285
+     NOT                          3372
+
+   Chip area for module '\mk_multiply': 71864.000000
+
